@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background-color:#f6f7f8;
+    padding-top:10px
+  }
+#header .header-text-contact {
+    font-size: 12px;
+}
+  
+.mail{
+    color: #313131;
+    margin-right: 10px;
+}
+#navbar .logo img{
+    height: 30px;
+}
+  
+#navbar .nav-bar a{ 
+    margin: 0 10px;
+    color: #212529;
+    font-size: 14px;
+    font-weight: 600;
+}
+  
+#navbar {
+   align-items: center;
+}
+#navbar .nav-bar{
+    position: relative;
+}
+#navbar .text-center .nav-bar .title{
+    background-color: #01bad4;
+    position: absolute;
+    top: -8px;
+    right: 64%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 5%;
+    font-size: 10px;
+    color: #fff;
+  
+  }
+#navbar .text-center .nav-bar span{
+    background-color: #ffa800;
+    position: absolute;
+    top: -8px;
+    right: 44%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 5%;
+    font-size: 10px;
+    color: #fff;
+  
+}
+#navbar .icons i{
+    margin-left: 5px;
+    color: #212529;
+}
+#first{
+    background-image: url(https://wp.the4.co/kalles/wp-content/uploads/2021/07/slideshow_image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 5rem;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 2rem;
+    
+}
+#first .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.219);
+    z-index: -1;
+}
+#first .row .text h1{
+    color: #fff;
+    -webkit-text-stroke-color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+#first .row .text p{
+    margin-bottom: 25px;
+    color: #fff;
+    -webkit-text-stroke-color: #fff;
+    font-family: libre baskerville,serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: italic;
+}
+#first .row  .text a{
+    color:#fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 1px solid;
+    font-weight: 600;
+    background-color: transparent;
+    transition: .5s;
+
+}
+#first .row .text a:hover{
+   
+    color:rgb(238, 229, 229);
+}
+#second .row .top .box{
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+#second .row .top .box:hover img{
+    transform: scale(1.2);
+}
+#second .row .top .box img{
+    width: 100%;
+    transition: 1s;
+   
+}
+#second .row .top .box a{
+    font-size: 22px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 0px 35px;
+    color: rgb(34, 34, 34);
+    transition: .5s;
+}
+#second .row .top .box a:hover{
+    background-color: rgba(255, 255, 255, 0.561);
+}
+#second .row .bottom-1 .box{
+  position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+#second .row .bottom-1 .box img{
+  width: 100%;
+  transition: 1s;
+}
+#second  .row .bottom-1 .box .p1{
+  font-size: 15px;
+  position: absolute;
+  bottom: 14%;
+  left: 5%;
+  color: rgba(34, 34, 34, 0.733);
+  transition: .5s;
+}
+#second  .row .bottom-1 .box h1{
+  font-size: 30px;
+  position: absolute;
+  bottom: 8%;
+  left: 5%;
+  color: rgb(34, 34, 34);
+  transition: .5s;
+}
+#second  .row .bottom-1 .box .p2{
+  font-size: 16px;
+  position: absolute;
+  bottom: 2%;
+  left: 5%;
+  color: rgba(34, 34, 34, 0.685);
+  transition: .5s;
+}
+#second .row .bottom-1 .box:hover img{
+  transform: scale(1.2);
+}
+#second .row .bottom-3 .box{
+  position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+#second .row .bottom-3 .box img{
+  width: 100%;
+  transition: 1s;
+}
+#second  .row .bottom-3 .box .text{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+#second  .row .bottom-3 .box .text p{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0px ;
+}
+#second  .row .bottom-3 .box .text h1{
+  font-size: 3rem;
+  margin-bottom: 1rem ;
+}
+#second  .row .bottom-3 .box .text a{
+  border: 2px solid;
+  color: #212529;
+  padding: 8px 3rem;
+  border-radius: 3rem;
+  transition: 0.5s;
+  font-size: 16px;
+  font-weight: 600;
+}
+#second  .row .bottom-3 .box .text a:hover{
+  border: 2px solid #58D0E2;
+  background-color: #58D0E2;
+  color: #fff;
+  
+}
+#second .row .bottom-3 .box:hover img{
+  transform: scale(1.2);
+}
+#second .row .bottom-2 .box{
+  position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    z-index: 1;
+}
+#second .row .bottom-2 .box img{
+  width: 100%;
+}
+#second  .row .bottom-2 .box .bottom{
+  position: relative;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: linear-gradient(#eaeaea18, rgb(128, 128, 128));
+  opacity: 0;
+  transition: 0.5s;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#second  .row .bottom-2 .box .bottom i{
+  color: rgb(245, 180, 17);
+}
+#second  .row .bottom-2 .box .bottom a{
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+#second  .row .bottom-2 .box .bottom p{
+  color: rgba(255, 255, 255, 0.445);
+  font-size: 1rem;
+  font-weight: 600;
+}
+#second  .row .bottom-2 .box .bottom .p2{
+  display: inline-block;
+  color: #fff;
+}
+#second  .row .bottom-2 .box .bottom .black
+{
+  border-radius: 100%;
+  border: 1px solid grey;
+  bottom: 10%;
+  left: 45%;
+  position: absolute;
+  background-color: #1a1b1b;
+  width: 1rem;
+  height: 1rem;
+}
+#second  .row .bottom-2 .box .bottom .pink
+{
+  border-radius: 100%;
+  border: 1px solid grey;
+  bottom: 10%;
+  left: 50%;
+  position: absolute;
+  background-color:palevioletred;
+  width: 1rem;
+  height: 1rem;
+}
+#second  .row .bottom-2 .box .bottom:hover{
+  opacity: 1;
+}
+#second  .row .bottom-2 .box .bottom p{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0px ;
+}
+#second  .row .bottom-2 .box .top{
+  position: relative;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 0.5s;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  
+}
+#second  .row .bottom-2 .box .top .view{
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  background-color: #f6f7f8;
+  padding: 10px 2rem;
+  border-radius: 20px;
+  color: #1a1b1b;
+}
+#second  .row .bottom-2 .box .top .shop{
+  display: inline-block;
+  background-color: #f6f7f8;
+  padding: 10px 2rem;
+  border-radius: 20px;
+  color: #1a1b1b;
+}
+#second  .row .bottom-2 .box .top_bg:hover .top{
+  opacity: 1;
+  top: 50%;
+}
+#second .row .bottom-2 .box .top_bg{
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+#second  .row .bottom-2:hover .bottom{
+  opacity: 1;
+}
+#second .row .bottom-2 .box .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1a1b1b2a;
+  opacity: 0;
+  transition: 1s;
+}
+#second .row .bottom-2 .box:hover .overlay{
+  opacity: 1;
+}
+
+#second .row .bottom-2 .box .top_bg .icon{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #fff;
+  opacity: 0;
+  font-size: 1.5rem;
+  transition: .5s;
+}
+#second .row .bottom-2 .box .top_bg:hover .icon{
+  opacity: 1;
+}
+
+
+
+
+
+
