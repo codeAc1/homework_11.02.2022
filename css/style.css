@@ -6,6 +6,9 @@
 a {
     text-decoration: none;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+}
 #header {
     background-color: #f6f7f8;
     padding-top: 10px;
@@ -731,6 +734,9 @@ a {
 #products .container .row .item .image:hover .icons .icon {
   position: relative;
 }
+#products .container .row .item .image .icons .icon .animate:hover{
+  animation: rotate 1s .1s infinite;
+}
 
 #products .container .row .item .image .icons .icon span {
   position: absolute;
@@ -784,6 +790,7 @@ a {
 
 #products .container .row .item:hover .image .image2 {
   display: inline;
+  animation: zoom 2s linear forwards;
   
 }
 
