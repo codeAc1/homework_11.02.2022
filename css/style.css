@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 body {
-  font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #header {
     background-color: #f6f7f8;
@@ -443,436 +443,455 @@ body {
     font-style: italic;
 }
 
-#trending .container .row .item .image{
-  position: relative;
-  overflow: hidden;
+#trending .container .row .item .image {
+    position: relative;
+    overflow: hidden;
 }
 
-#trending .container .row .item .image .icons{
-  position: absolute;
-  top: 0;
-  left: 10px;
-  display: flex;
-  flex-direction: column;
-  opacity: 0;
-  transition: opacity .3s;
+#trending .container .row .item .image .icons {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
-#trending .container .row .item .image .icons i{
-  margin-top: 10px;
-  color: white;
-  font-size: 18px;
+#trending .container .row .item .image .icons i {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
 }
 
-#trending .container .row .item .image .sale{
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #FF4E00;
-  color: white;
-  font-size: 12px;
-  padding: 5px 10px;
+#trending .container .row .item .image .sale {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #FF4E00;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
 }
 
-#trending .container .row .item .image::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,.1);
-  transition: opacity .3s;
-  opacity: 0;
+#trending .container .row .item .image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1);
+    transition: opacity 0.3s;
+    opacity: 0;
 }
 
 #trending .container .row .item .image:hover::before {
-  opacity: 1;
+    opacity: 1;
 }
 
-#trending .container .row .item .image:hover .icons{
-  opacity: 1;
+#trending .container .row .item .image:hover .icons {
+    opacity: 1;
 }
 
-#trending .container .row .item .image:hover .buttons{
-  opacity: 1;
-  top: 50%;
+#trending .container .row .item .image:hover .buttons {
+    opacity: 1;
+    top: 50%;
 }
 
-
-#trending .container .row .item .image:hover .icons .icon{
-  position: relative;
+#trending .container .row .item .image:hover .icons .icon {
+    position: relative;
 }
 
-#trending .container .row .item .image .icons .icon span{
-  position: absolute;
-  transform: translateY(-50%);
-  top: 55%;
-  left: 130%;
-  background: black;
-  color: white;
-  padding: 0 5px;
-  white-space: nowrap;
-  font-size: 14px;
-  opacity: 0;
-  transition: opacity .3s;
+#trending .container .row .item .image .icons .icon span {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 55%;
+    left: 130%;
+    background: black;
+    color: white;
+    padding: 0 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
-#trending .container .row .item .image .icons .icon .animate:hover{
-  animation: rotate 1s .1s infinite;
+#trending .container .row .item .image .icons .icon .animate:hover {
+    animation: rotate 1s 0.1s infinite;
 }
 
-#trending .container .row .item .image .icons .icon:hover span{
-  opacity: 1;
+#trending .container .row .item .image .icons .icon:hover span {
+    opacity: 1;
 }
 
-#trending .container .row .item .image .buttons{
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  transform: translate(-50%,-50%);
-  opacity: 0;
-  transition: all .3s;
-  display: flex;
-  flex-direction: column;
+#trending .container .row .item .image .buttons {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
 }
 
-#trending .container .row .item .image .buttons a{
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  padding: 10px 0;
-  width: 150px;
-  border-radius: 20px;
-  background: white;
-  color: #000;
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-  transition: background-color .1s;
+#trending .container .row .item .image .buttons a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 20px;
+    background: white;
+    color: #000;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.1s;
 }
 
 #trending .container .row .item:hover .image img {
-  display: none;
+    display: none;
 }
 
-#trending .container .row .item:hover .image .image2{
-  display: inline;
-  animation: zoom 2s linear forwards;
+#trending .container .row .item:hover .image .image2 {
+    display: inline;
+    animation: zoom 2s linear forwards;
 }
 
-#trending .container .row .item .image .buttons a:hover{
-  background-color: #222;
-  color: #fff;
+#trending .container .row .item .image .buttons a:hover {
+    background-color: #222;
+    color: #fff;
 }
 
-#trending .container .row .item .image .buttons a:hover span{
-  transform: translateY(-50px);
+#trending .container .row .item .image .buttons a:hover span {
+    transform: translateY(-50px);
 }
 
-#trending .container .row .item .image .buttons a:hover i{
-  top: 50%;
+#trending .container .row .item .image .buttons a:hover i {
+    top: 50%;
 }
 
-#trending .container .row .item .image .buttons a span{
-  transition: all .3s;
-  display: inline-block;
+#trending .container .row .item .image .buttons a span {
+    transition: all 0.3s;
+    display: inline-block;
 }
 
-#trending .container .row .item .image .buttons a i{
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  transition: all .3s;
+#trending .container .row .item .image .buttons a i {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s;
 }
 
 #trending .container .row .item .image img {
-  width: 100%;
+    width: 100%;
 }
 
 #trending .container .row .item .image .image2 {
-  display: none;
+    display: none;
 }
 
 #trending .container .row .item .text {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 #trending .container .row .item .text h6 {
-  font-size: 14px;
-  color: #222;
-  margin-bottom: 0.3rem;
-  transition: color .3s;
-  cursor: pointer;
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 0.3rem;
+    transition: color 0.3s;
+    cursor: pointer;
 }
 
 #trending .container .row .item .text p {
-  color: #696969;
-  font-size: 14px;
+    color: #696969;
+    font-size: 14px;
 }
 
-#trending .container .row .item .text h6:hover{
-  color: #56cfe1;
+#trending .container .row .item .text h6:hover {
+    color: #56cfe1;
 }
 
-@keyframes rotate{
-  to{
-      transform: rotate(360deg);
-  }
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-@keyframes zoom{
-  to{
-      transform: scale(1.1);
-  }
+@keyframes zoom {
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #products .container .title-text {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 #products .container .title-text h3 {
-  color: #222222;
-  font-size: 24px;
-  font-weight: 600;
-  position: relative;
+    color: #222222;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
 }
 
 #products .container .title-text h3::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 2px;
-  background-color: #000;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 36%;
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 36%;
 }
 
 #products .container .title-text h3::before {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 2px;
-  background-color: #000;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 36%;
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 36%;
 }
 
 #products .container .title-text .title {
-  color: #878787;
-  font-size: 14px;
-  font-family: 'Libre Baskerville', serif;
-  font-style: italic;
+    color: #878787;
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
 }
 #products .container .row .item .image {
-  position: relative;
-  overflow: hidden;
-  
-  
-  
+    position: relative;
+    overflow: hidden;
+
 }
 
-
 #products .container .row .item .image .icons {
-  position: absolute;
-  top: 0;
-  left: 10px;
-  display: flex;
-  flex-direction: column;
-  opacity: 0;
-  transition:  0.3s;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.3s;
 }
 
 #products .container .row .item .image .icons i {
-  margin-top: 10px;
-  color: white;
-  font-size: 18px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
 }
 
 #products .container .row .item .image .sale {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #FF4E00;
-  color: white;
-  font-size: 12px;
-  padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #FF4E00;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
 }
 
 #products .container .row .item .image::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,.1);
-  transition: 0.3s;
-  opacity: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1);
+    transition: 0.3s;
+    opacity: 0;
 }
 
 #products .container .row .item .image:hover::before {
-  opacity: 1;
-  
+    opacity: 1;
+
 }
 
 #products .container .row .item .image:hover .icons {
-  opacity: 1;
+    opacity: 1;
 }
 
 #products .container .row .item .image:hover .buttons {
-  opacity: 1;
-  top: 50%;
-  
+    opacity: 1;
+    top: 50%;
+
 }
 
 #products .container .row .item .image:hover .icons .icon {
-  position: relative;
+    position: relative;
 }
-#products .container .row .item .image .icons .icon .animate:hover{
-  animation: rotate 1s .1s infinite;
+#products .container .row .item .image .icons .icon .animate:hover {
+    animation: rotate 1s 0.1s infinite;
 }
 
 #products .container .row .item .image .icons .icon span {
-  position: absolute;
-  transform: translateY(-50%);
-  top: 55%;
-  left: 130%;
-  background: black;
-  color: white;
-  padding: 0 5px;
-  white-space: nowrap;
-  font-size: 14px;
-  opacity: 0;
-  transition: 0.5s;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 55%;
+    left: 130%;
+    background: black;
+    color: white;
+    padding: 0 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0;
+    transition: 0.5s;
 }
 
-
 #products .container .row .item .image .icons .icon:hover span {
-  opacity: 1;
+    opacity: 1;
 }
 
 #products .container .row .item .image .buttons {
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  transform: translate(-50%,-50%);
-  opacity: 0;
-  transition: all 0.3s;
-  display: flex;
-  flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
 }
 
 #products .container .row .item .image .buttons a {
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  padding: 10px 0;
-  width: 150px;
-  border-radius: 20px;
-  background: white;
-  color: #000;
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-  transition: background-color 0.1s;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 20px;
+    background: white;
+    color: #000;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.1s;
 }
 
 #products .container .row .item:hover .image img {
-  display: none;
-  
+    display: none;
+
 }
 
 #products .container .row .item:hover .image .image2 {
-  display: inline;
-  animation: zoom 2s linear forwards;
-  
+    display: inline;
+    animation: zoom 2s linear forwards;
+
 }
 
-
 #products .container .row .item .image .buttons a:hover {
-  background-color: #222;
-  color: #fff;
+    background-color: #222;
+    color: #fff;
 }
 
 #products .container .row .item .image .buttons a:hover span {
-  transform: translateY(-50px);
+    transform: translateY(-50px);
 }
 
 #products .container .row .item .image .buttons a:hover i {
-  top: 50%;
+    top: 50%;
 }
 
 #products .container .row .item .image .buttons a span {
-  transition: all 0.3s;
-  display: inline-block;
+    transition: all 0.3s;
+    display: inline-block;
 }
 
 #products .container .row .item .image .buttons a i {
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  transition: all 0.3s;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s;
 }
 
 #products .container .row .item .image img {
-  width: 100%;
-  transition: 5s;
-  
+    width: 100%;
+    transition: 5s;
+
 }
 
 #products .container .row .item .image .image2 {
-  display: none;
-  transition: 5s;
-  
+    display: none;
+    transition: 5s;
+
 }
 
 #products .container .row .item .text {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 #products .container .row .item .text h6 {
-  font-size: 14px;
-  color: #222;
-  margin-bottom: 0.3rem;
-  transition: color 0.3s;
-  cursor: pointer;
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 0.3rem;
+    transition: color 0.3s;
+    cursor: pointer;
 }
 
 #products .container .row .item .text .p1 {
-  display: inline-block;
-  color: #696969;
-  font-size: 14px;
-  text-decoration-line: line-through;
+    display: inline-block;
+    color: #696969;
+    font-size: 14px;
+    text-decoration-line: line-through;
 }
 #products .container .row .item .text .p2 {
-  margin-left: 8px;
-  display: inline-block;
-  color: red;
-  font-size: 14px;
-  
+    margin-left: 8px;
+    display: inline-block;
+    color: red;
+    font-size: 14px;
+
 }
 #products .container .row .item .text .p3 {
-  margin-left: 8px;
-  display: inline-block;
-  color: gray;
-  font-size: 1rem;
-  
+    margin-left: 8px;
+    display: inline-block;
+    color: gray;
+    font-size: 1rem;
+
 }
-#products .container .row .item .text .icon{
-  margin-top: -1rem;
-  
+#products .container .row .item .text .icon {
+    margin-top: -1rem;
+
 }
-#products .container .row .item .text i{
-  color: rgb(245, 180, 17);
+#products .container .row .item .text i {
+    color: rgb(245, 180, 17);
 }
 
 #products .container .row .item .text h6:hover {
-  color: #56cfe1;
+    color: #56cfe1;
 }
+#products .container .row .item .text .color{
+  width: 100%;
+ 
+  position: relative;
+  bottom: 15px;
+  margin:  5px 0px;
+  text-align: left;
+}
+#products .container .row .item .text .color .black{
+  color: #000;
+  font-size: 1px;
+  background-color: #000;
+  padding: 8px 8px;
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+#products .container .row .item .text .color .pink{
+  color: pink;
+  font-size: 1px;
+  background-color: pink;
+  padding: 8px 8px;
+  border: 2px solid rgba(128, 128, 128, 0.281);
+  border-radius: 100%;
+}
+
